@@ -4,7 +4,7 @@
 The purpose of this analysis is to examine credit risk using different models. This analysis will further evaluate the performance of these models and recommend which should be used to predict credit risk.
 
 ### Results
-- Random Oversampling
+#### Random Oversampling
 
 ![Random Accuracy](./Resources/random_oversampler_accuracy.png)
 ![Random Matrix](./Resources/random_oversampler_classification.png)
@@ -14,7 +14,7 @@ The purpose of this analysis is to examine credit risk using different models. T
   - Sensitivity was 73% for high risk results and 57% for low risk results (57% average)
   - F1 score was 2% and 72% for high and low results respectively, and 72% average.
 
-- SMOTE Oversampling
+#### SMOTE Oversampling
 
 ![SMOTE Accuracy](./Resources/smote_accuracy.png)
 ![SMOTE Matrix](./Resources/smote_classification.png)
@@ -24,7 +24,7 @@ The purpose of this analysis is to examine credit risk using different models. T
   - Sensitivity was 63% for high risk results and 68% for low risk results (68% average)
   - F1 score was 2% and 81% for high and low results respectively, and 81% average.
 
-- Undersampling
+#### Undersampling
 
 ![Undersampling Accuracy](./Resources/undersampling_accuracy.png)
 ![Undersampling Matrix](./Resources/undersampling_classification.png)
@@ -34,7 +34,7 @@ The purpose of this analysis is to examine credit risk using different models. T
   - Sensitivity was 67% for high risk results and 42% for low risk results (42% average)
   - F1 score was 1% and 59% for high and low results repectively, and 58% average.
 
-- SMOTEENN
+#### SMOTEENN
 
 ![SMOTEENN Accuracy](./Resources/smoteenn_accuracy.png)
 ![SMOTEENN Matrix](./Resources/smoteenn_classification.png)
@@ -44,7 +44,7 @@ The purpose of this analysis is to examine credit risk using different models. T
   - Sensitivity was 72% for high risk results and 57% for low risk results (58% average)
   - F1 score was 2% and 73% for high and low results repectively, and 72% average.
 
-- Random Forest Classifier
+#### Random Forest Classifier
 
 ![Forest Accuracy](./Resources/random_forest_accuracy.png)
 ![Forest Matrix](./Resources/random_forest_classification.png)
@@ -54,7 +54,7 @@ The purpose of this analysis is to examine credit risk using different models. T
   - Sensitivity was 92% for high risk results and 15% for low risk results (15% weighted average)
   - F1 score was 1% and 25% for high and low results repectively, and 25% weighted average.
 
-- Easy Ensemble Classifier
+#### Easy Ensemble Classifier
 
 ![Ensemble](./Resources/ensemble_accuracy_classification.png)
 
